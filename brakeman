@@ -4,4 +4,4 @@
 # Brakeman is a security scanner https://github.com/presidentbeef/brakeman.
 
 gem install --no-document brakeman haml haml-rails coffee-rails mini_racer
-brakeman --exit-on-warn --rails5 -i script/brakeman-ignore.json -c brakeman.yml .
+brakeman --exit-on-warn --rails5 -i ruby-audit-scripts/brakeman-ignore.json -c scripts/brakeman.yml .
